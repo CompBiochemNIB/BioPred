@@ -304,7 +304,7 @@ if selected =='Home':
     This app allows you to predict the bioactivity of bioactive compounds using Machine Learning.
 
     **Credits**
-    - Built using `Python` and `Streamlit` by Nutritional and industrial Laboratory, Department of Biochemistry, University of Ibadan
+    - Built using `Python` and `Streamlit` by Computational Biochemistry and Biomolecular Modeling Laboratory.
     """)
     smile = st.text_input('Enter canonical smile')
     smiles = smile.split()
