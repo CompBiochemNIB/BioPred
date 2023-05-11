@@ -138,7 +138,7 @@ def PTP1B_single_build_IC50_model(input_data):
     st.markdown(filedownload(df), unsafe_allow_html=True)
 
 def PTP1B_single_build_Ki_model(input_data):
-    # Reads in saved regression model
+    # Reads in saved regression model for PTP1B
     load_model = pickle.load(open('PTP1B_Ki_model.pkl', 'rb'))
     # Apply model to make predictions
     prediction = load_model.predict(input_data)
